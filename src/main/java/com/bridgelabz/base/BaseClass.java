@@ -32,11 +32,8 @@ public class BaseClass {
 	public void initialization() {
 		String browserName = properties.getProperty("browser");
 		if (browserName.equals("chrome")) {
-			// WebDriverManager.chromedriver().setup();
 			System.setProperty("webdriver.chrome.driver",
 					"C:\\Users\\ADMIN\\Downloads\\chromedriver_win32//chromedriver.exe");
-			// ChromeOptions option = new ChromeOptions();
-			// option.addArguments("--disable-notifications");
 			driver = new ChromeDriver();
 		} else if (browserName.equals("firefox")) {
 			WebDriverManager.firefoxdriver().setup();

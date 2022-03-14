@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 import com.bridgelabz.base.BaseClass;
 
 public class LoginPage extends BaseClass {
-//Page Factory
+	// Page Factory
 	@FindBy(id = "email")
 	WebElement username;
 
@@ -17,13 +17,13 @@ public class LoginPage extends BaseClass {
 	@FindBy(name = "login")
 	WebElement loginButton;
 
-//initializing the page object
+	// initializing the page object
 	public LoginPage() {
 		PageFactory.initElements(driver, this);
 	}
 
-//Actions:
-	public String verifyPageTitle() {
+	// Actions:
+	public String validateLoginPageTitle() {
 		return driver.getTitle();
 	}
 

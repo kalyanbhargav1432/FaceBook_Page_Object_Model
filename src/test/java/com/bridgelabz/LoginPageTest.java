@@ -14,7 +14,6 @@ import com.bridgelabz.utility.UtilityClass;
 public class LoginPageTest extends BaseClass {
 	LoginPage loginPage;
 	HomePage homepage;
-	String sheetName = "Login";
 
 	public LoginPageTest() {
 		super();
@@ -29,7 +28,7 @@ public class LoginPageTest extends BaseClass {
 	@Test(priority = 1)
 	public void loginPageTitleTest() {
 		loginPage = new LoginPage();
-		String loginPageTitle = loginPage.verifyPageTitle();
+		String loginPageTitle = loginPage.validateLoginPageTitle();
 		Assert.assertEquals(loginPageTitle, "Facebook – log in or sign up", loginPageTitle);
 	}
 
@@ -41,7 +40,7 @@ public class LoginPageTest extends BaseClass {
 
 	@AfterMethod
 	public void tearDown() throws InterruptedException {
-		Thread.sleep(5000);
+		Thread.sleep(10000);
 		driver.quit();
 	}
 
