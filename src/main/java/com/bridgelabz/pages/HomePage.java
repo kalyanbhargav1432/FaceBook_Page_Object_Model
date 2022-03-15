@@ -7,10 +7,10 @@ import org.openqa.selenium.support.PageFactory;
 import com.bridgelabz.base.BaseClass;
 
 public class HomePage extends BaseClass {
-	@FindBy(xpath = "//span[contains(text(),'Kalyan Kalyan')]")
+	@FindBy(xpath = "//span[contains(text(),'Kalyan Tanniru')]")
 	WebElement userProfileLink;
 
-	@FindBy(xpath = "//span[contains(text(),'Friends')]")
+	@FindBy(xpath = "//span[contains(text(),'Find Friends')]")
 	WebElement friendsLink;
 
 	@FindBy(xpath = "//span[contains(text(),'Saved')]")
@@ -38,4 +38,5 @@ public class HomePage extends BaseClass {
 		savedLink.click();
 		return new SavedPage();
 	}
+
 }

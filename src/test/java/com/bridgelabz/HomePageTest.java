@@ -22,6 +22,7 @@ public class HomePageTest extends BaseClass {
 		loginPage = new LoginPage();
 		homePage = new HomePage();
 		homePage = loginPage.login(properties.getProperty("username"), properties.getProperty("password"));
+		
 	}
 
 	@Test(priority = 1)

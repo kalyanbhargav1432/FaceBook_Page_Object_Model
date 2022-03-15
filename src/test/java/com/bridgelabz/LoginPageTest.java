@@ -14,6 +14,7 @@ import com.bridgelabz.utility.UtilityClass;
 public class LoginPageTest extends BaseClass {
 	LoginPage loginPage;
 	HomePage homepage;
+	String sheetName = "Login Page";
 
 	public LoginPageTest() {
 		super();
@@ -36,6 +37,17 @@ public class LoginPageTest extends BaseClass {
 	public void loginTest() {
 		loginPage = new LoginPage();
 		homepage = loginPage.login(properties.getProperty("username"), properties.getProperty("password"));
+	}
+
+	@DataProvider
+	public Object[][] getLoginTestdata() {
+		return UtilityClass.getTestData(sheetName);
+	}
+
+	@Test(priority = 3, dataProvider = "getLoginTestdata")
+	public void loginTest(String username, String password) {
+		loginPage = new LoginPage();
+		homepage = loginPage.login(username, password);
 	}
 
 	@AfterMethod
