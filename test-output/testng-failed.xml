@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [FaceBookPageObjectModel]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="com.bridgelabz.extentreports.ExtentReporterNG"/>
-  </listeners>
-  <test thread-count="5" name="FaceBookPageObjectModel(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.bridgelabz.LoginPageTest">
+      <class name="com.bridgelabz.HomePageTest">
         <methods>
-          <include name="loginTest"/>
+          <include name="verifyFriendsPageTest"/>
+          <include name="verifySavedPageTest"/>
+          <include name="verifyClickOnProfileTest"/>
           <include name="setUp"/>
           <include name="tearDown"/>
+          <include name="verifyHomePageTitle"/>
         </methods>
-      </class> <!-- com.bridgelabz.LoginPageTest -->
+      </class> <!-- com.bridgelabz.HomePageTest -->
     </classes>
-  </test> <!-- FaceBookPageObjectModel(failed) -->
-</suite> <!-- Failed suite [FaceBookPageObjectModel] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -5,12 +5,18 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import com.bridgelabz.base.BaseClass;
+import com.bridgelabz.pages.FriendsPage;
 import com.bridgelabz.pages.HomePage;
 import com.bridgelabz.pages.LoginPage;
+import com.bridgelabz.pages.ProfilePage;
+import com.bridgelabz.pages.SavedPage;
 
 public class HomePageTest extends BaseClass {
 	LoginPage loginPage;
 	HomePage homePage;
+	ProfilePage profilePage;
+	FriendsPage friendsPage;
+	SavedPage savedPage;
 
 	public HomePageTest() {
 		super();
@@ -22,7 +28,7 @@ public class HomePageTest extends BaseClass {
 		loginPage = new LoginPage();
 		homePage = new HomePage();
 		homePage = loginPage.login(properties.getProperty("username"), properties.getProperty("password"));
-		
+
 	}
 
 	@Test(priority = 1)
@@ -32,17 +38,17 @@ public class HomePageTest extends BaseClass {
 
 	@Test(priority = 2)
 	public void verifyClickOnProfileTest() {
-		homePage.clickOnProfile();
+		profilePage = homePage.clickOnProfile();
 	}
 
 	@Test(priority = 3)
 	public void verifyFriendsPageTest() {
-		homePage.clickOnFriendsLink();
+		friendsPage = homePage.clickOnFriendsLink();
 	}
 
 	@Test(priority = 4)
 	public void verifySavedPageTest() {
-		homePage.clickOnSavedLink();
+		savedPage = homePage.clickOnSavedLink();
 	}
 
 	@AfterMethod

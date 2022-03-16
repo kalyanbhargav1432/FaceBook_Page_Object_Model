@@ -12,8 +12,8 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 import com.bridgelabz.base.BaseClass;
 
 public class UtilityClass extends BaseClass {
-	public static long PAGE_LOAD_TIME = 25;
-	public static long IMPLICIT_WAIT_TIME = 20;
+	public static long PAGE_LOAD_TIME = 45;
+	public static long IMPLICIT_WAIT_TIME = 40;
 	public static String TESTDATA_SHEET_PATH = "C:\\Users\\ADMIN\\eclipse-workspace\\Java-Programs\\FaceBookPageObjectModel\\src\\main\\resources\\FacedBookLoginPage.xlsx";
 
 	public static Workbook book;
