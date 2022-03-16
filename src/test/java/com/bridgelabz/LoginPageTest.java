@@ -1,5 +1,6 @@
 package com.bridgelabz;
 
+import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -20,6 +21,8 @@ public class LoginPageTest extends BaseClass {
 		super();
 	}
 
+	Logger log = Logger.getLogger(LoginPageTest.class);
+
 	@BeforeMethod
 	public void setUp() {
 		initialization();
@@ -31,6 +34,7 @@ public class LoginPageTest extends BaseClass {
 		loginPage = new LoginPage();
 		String loginPageTitle = loginPage.validateLoginPageTitle();
 		Assert.assertEquals(loginPageTitle, "Facebook – log in or sign up", loginPageTitle);
+		log.info("Login facebook page");
 	}
 
 	@Test(priority = 2)
@@ -48,6 +52,7 @@ public class LoginPageTest extends BaseClass {
 	public void loginTest(String username, String password) {
 		loginPage = new LoginPage();
 		homepage = loginPage.login(username, password);
+		log.info("login facebook page using username and password: " + username + password);
 	}
 
 	@AfterMethod
