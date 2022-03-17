@@ -9,8 +9,10 @@
       <class name="com.bridgelabz.LoginPageTest">
         <methods>
           <include name="loginTest"/>
+          <include name="loginTest"/>
           <include name="setUp"/>
           <include name="tearDown"/>
+          <include name="loginPageTitleTest"/>
         </methods>
       </class> <!-- com.bridgelabz.LoginPageTest -->
     </classes>

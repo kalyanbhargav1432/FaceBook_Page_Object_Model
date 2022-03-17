@@ -11,7 +11,7 @@ public class HomePage extends BaseClass {
 	WebElement userProfileLink;
 
 	@FindBy(xpath = "//span[contains(text(),'Find Friends')]")
-	WebElement friendsLink;
+	WebElement findFriendsLink;
 
 	@FindBy(xpath = "//span[contains(text(),'Saved')]")
 	WebElement savedLink;
@@ -29,8 +29,8 @@ public class HomePage extends BaseClass {
 		return new ProfilePage();
 	}
 
-	public FriendsPage clickOnFriendsLink() {
-		friendsLink.click();
+	public FriendsPage clickOnFindFriendsLink() {
+		findFriendsLink.click();
 		return new FriendsPage();
 	}
 

@@ -1,85 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-16T12:27:58 IST" name="Default suite" finished-at="2022-03-16T12:30:32 IST" duration-ms="153817">
+  <suite started-at="2022-03-17T12:30:52 IST" name="Default suite" finished-at="2022-03-17T12:34:52 IST" duration-ms="240001">
     <groups>
     </groups>
-    <test started-at="2022-03-16T12:27:58 IST" name="Default test" finished-at="2022-03-16T12:30:32 IST" duration-ms="153817">
-      <class name="com.bridgelabz.LoginPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bridgelabz.LoginPageTest@279fedbd]" started-at="2022-03-16T12:27:59 IST" name="setUp" finished-at="2022-03-16T12:28:21 IST" duration-ms="22534" status="PASS">
+    <test started-at="2022-03-17T12:30:52 IST" name="Default test" finished-at="2022-03-17T12:34:52 IST" duration-ms="240001">
+      <class name="com.bridgelabz.FindFriendsPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bridgelabz.FindFriendsPageTest@32eff876]" started-at="2022-03-17T12:30:52 IST" name="setUp" finished-at="2022-03-17T12:31:48 IST" duration-ms="56521" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginPageTitleTest()[pri:1, instance:com.bridgelabz.LoginPageTest@279fedbd]" started-at="2022-03-16T12:28:21 IST" name="loginPageTitleTest" finished-at="2022-03-16T12:28:22 IST" duration-ms="1316" status="PASS">
+        <test-method signature="verifyFriendsPageTitleTest()[pri:1, instance:com.bridgelabz.FindFriendsPageTest@32eff876]" started-at="2022-03-17T12:31:48 IST" name="verifyFriendsPageTitleTest" finished-at="2022-03-17T12:31:49 IST" duration-ms="769" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginPageTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bridgelabz.LoginPageTest@279fedbd]" started-at="2022-03-16T12:28:22 IST" name="tearDown" finished-at="2022-03-16T12:28:33 IST" duration-ms="10629" status="PASS">
+        </test-method> <!-- verifyFriendsPageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bridgelabz.FindFriendsPageTest@32eff876]" started-at="2022-03-17T12:31:50 IST" name="tearDown" finished-at="2022-03-17T12:31:52 IST" duration-ms="2342" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bridgelabz.LoginPageTest@279fedbd]" started-at="2022-03-16T12:28:33 IST" name="setUp" finished-at="2022-03-16T12:28:52 IST" duration-ms="19373" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bridgelabz.FindFriendsPageTest@32eff876]" started-at="2022-03-17T12:31:52 IST" name="setUp" finished-at="2022-03-17T12:32:19 IST" duration-ms="27215" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTest()[pri:2, instance:com.bridgelabz.LoginPageTest@279fedbd]" started-at="2022-03-16T12:28:52 IST" name="loginTest" finished-at="2022-03-16T12:28:56 IST" duration-ms="3465" status="PASS">
+        <test-method signature="ClickOnFriendRequestLinkTest()[pri:2, instance:com.bridgelabz.FindFriendsPageTest@32eff876]" started-at="2022-03-17T12:32:19 IST" name="ClickOnFriendRequestLinkTest" finished-at="2022-03-17T12:32:23 IST" duration-ms="3356" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bridgelabz.LoginPageTest@279fedbd]" started-at="2022-03-16T12:28:56 IST" name="tearDown" finished-at="2022-03-16T12:29:10 IST" duration-ms="14120" status="PASS">
+        </test-method> <!-- ClickOnFriendRequestLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bridgelabz.FindFriendsPageTest@32eff876]" started-at="2022-03-17T12:32:23 IST" name="tearDown" finished-at="2022-03-17T12:32:24 IST" duration-ms="1396" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bridgelabz.LoginPageTest@279fedbd]" started-at="2022-03-16T12:29:16 IST" name="setUp" finished-at="2022-03-16T12:29:40 IST" duration-ms="23241" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bridgelabz.FindFriendsPageTest@32eff876]" started-at="2022-03-17T12:32:24 IST" name="setUp" finished-at="2022-03-17T12:32:52 IST" duration-ms="27432" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:3, instance:com.bridgelabz.LoginPageTest@279fedbd]" started-at="2022-03-16T12:29:40 IST" name="loginTest" data-provider="getLoginTestdata" finished-at="2022-03-16T12:29:43 IST" duration-ms="3456" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[9182169100]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Bhargav@1432]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="ClickOnSuggestionsLinkTest()[pri:3, instance:com.bridgelabz.FindFriendsPageTest@32eff876]" started-at="2022-03-17T12:32:52 IST" name="ClickOnSuggestionsLinkTest" finished-at="2022-03-17T12:32:56 IST" duration-ms="4219" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bridgelabz.LoginPageTest@279fedbd]" started-at="2022-03-16T12:29:43 IST" name="tearDown" finished-at="2022-03-16T12:30:01 IST" duration-ms="17541" status="PASS">
+        </test-method> <!-- ClickOnSuggestionsLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bridgelabz.FindFriendsPageTest@32eff876]" started-at="2022-03-17T12:32:56 IST" name="tearDown" finished-at="2022-03-17T12:32:57 IST" duration-ms="1542" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bridgelabz.LoginPageTest@279fedbd]" started-at="2022-03-16T12:30:01 IST" name="setUp" finished-at="2022-03-16T12:30:20 IST" duration-ms="19096" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bridgelabz.FindFriendsPageTest@32eff876]" started-at="2022-03-17T12:32:57 IST" name="setUp" finished-at="2022-03-17T12:33:41 IST" duration-ms="43490" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:3, instance:com.bridgelabz.LoginPageTest@279fedbd]" started-at="2022-03-16T12:30:20 IST" name="loginTest" data-provider="getLoginTestdata" finished-at="2022-03-16T12:30:21 IST" duration-ms="1426" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[8109555221]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[test12345]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="ClickOnBirthdayLinkTest()[pri:4, instance:com.bridgelabz.FindFriendsPageTest@32eff876]" started-at="2022-03-17T12:33:41 IST" name="ClickOnBirthdayLinkTest" finished-at="2022-03-17T12:33:52 IST" duration-ms="11278" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bridgelabz.LoginPageTest@279fedbd]" started-at="2022-03-16T12:30:21 IST" name="tearDown" finished-at="2022-03-16T12:30:32 IST" duration-ms="11022" status="PASS">
+        </test-method> <!-- ClickOnBirthdayLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bridgelabz.FindFriendsPageTest@32eff876]" started-at="2022-03-17T12:33:52 IST" name="tearDown" finished-at="2022-03-17T12:33:54 IST" duration-ms="2142" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.bridgelabz.LoginPageTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bridgelabz.FindFriendsPageTest@32eff876]" started-at="2022-03-17T12:33:54 IST" name="setUp" finished-at="2022-03-17T12:34:42 IST" duration-ms="47862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ClickOnCustomListsLinkTest()[pri:5, instance:com.bridgelabz.FindFriendsPageTest@32eff876]" started-at="2022-03-17T12:34:42 IST" name="ClickOnCustomListsLinkTest" finished-at="2022-03-17T12:34:49 IST" duration-ms="6518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnCustomListsLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bridgelabz.FindFriendsPageTest@32eff876]" started-at="2022-03-17T12:34:49 IST" name="tearDown" finished-at="2022-03-17T12:34:52 IST" duration-ms="3254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bridgelabz.FindFriendsPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

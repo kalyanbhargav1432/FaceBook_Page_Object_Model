@@ -3,16 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.bridgelabz.HomePageTest">
+      <class name="com.bridgelabz.FindFriendsPageTest">
         <methods>
-          <include name="verifyFriendsPageTest"/>
-          <include name="verifySavedPageTest"/>
-          <include name="verifyClickOnProfileTest"/>
-          <include name="setUp"/>
+          <include name="verifyFriendsPageTitleTest"/>
           <include name="tearDown"/>
-          <include name="verifyHomePageTitle"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.bridgelabz.HomePageTest -->
+      </class> <!-- com.bridgelabz.FindFriendsPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
