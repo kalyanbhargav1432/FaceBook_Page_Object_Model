@@ -12,6 +12,8 @@
 		<classes>
 			<class name="com.bridgelabz.LoginPageTest"></class>
 			<class name="com.bridgelabz.HomePageTest"></class>
+			<class name="com.bridgelabz.FindFriendsPageTest"></class>
+			
 
 		</classes>
 	</test>
