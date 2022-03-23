@@ -15,8 +15,8 @@ import org.openqa.selenium.TakesScreenshot;
 import com.bridgelabz.base.BaseClass;
 
 public class UtilityClass extends BaseClass {
-	public static long PAGE_LOAD_TIME = 15;
-	public static long IMPLICIT_WAIT_TIME = 10;
+	public static long PAGE_LOAD_TIME = 45;
+	public static long IMPLICIT_WAIT_TIME = 35;
 	public static String TESTDATA_SHEET_PATH = "C:\\Users\\ADMIN\\eclipse-workspace\\Java-Programs\\FaceBookPageObjectModel\\src\\main\\resources\\FacedBookLoginPage.xlsx";
 
 	public static Workbook book;

@@ -6,15 +6,50 @@
   </listeners>
   <test thread-count="5" name="FaceBookPageObjectModel(failed)">
     <classes>
-      <class name="com.bridgelabz.LoginPageTest">
+      <class name="com.bridgelabz.AboutPageTest">
         <methods>
-          <include name="loginTest"/>
-          <include name="loginTest"/>
+          <include name="ClickOnFamilyAndRelationshipsLinkTest"/>
+          <include name="ClickOnPlacesLivedLinkTest"/>
+          <include name="ClickOnDetailsAboutYouLinkTest"/>
+          <include name="ClickOnAboutLinkTest"/>
+          <include name="setUp"/>
+          <include name="ClickOnLifeEventsLinkTest"/>
+          <include name="ClickOnContactAndBasicInformationLinkTest"/>
+          <include name="ClickOnOverviewLinkTest"/>
+          <include name="tearDown"/>
+          <include name="ClickOnWorkAndEducationLinkTest"/>
+        </methods>
+      </class> <!-- com.bridgelabz.AboutPageTest -->
+      <class name="com.bridgelabz.ProfilePageTest">
+        <methods>
+          <include name="ClickOnAboutLinkTest"/>
+          <include name="ClickOnPostsLinkTest"/>
+          <include name="ClickOnVideosLinkTest"/>
+          <include name="tearDown"/>
+          <include name="verifyProfilePageTitleTest"/>
+          <include name="ClickOnPhotosdLinkTest"/>
+          <include name="setUp"/>
+          <include name="ClickOnFriendsLinkTest"/>
+        </methods>
+      </class> <!-- com.bridgelabz.ProfilePageTest -->
+      <class name="com.bridgelabz.FindFriendsPageTest">
+        <methods>
+          <include name="verifyFriendsPageTitleTest"/>
+          <include name="ClickOnCustomListsLinkTest"/>
+          <include name="ClickOnBirthdayLinkTest"/>
+          <include name="ClickOnSuggestionsLinkTest"/>
+          <include name="ClickOnFriendRequestLinkTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.bridgelabz.FindFriendsPageTest -->
+      <class name="com.bridgelabz.HomePageTest">
+        <methods>
+          <include name="verifyFindFriendsPageTest"/>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="loginPageTitleTest"/>
         </methods>
-      </class> <!-- com.bridgelabz.LoginPageTest -->
+      </class> <!-- com.bridgelabz.HomePageTest -->
     </classes>
   </test> <!-- FaceBookPageObjectModel(failed) -->
 </suite> <!-- Failed suite [FaceBookPageObjectModel] -->
