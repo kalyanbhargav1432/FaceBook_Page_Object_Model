@@ -13,10 +13,10 @@ public class ProfilePage extends BaseClass {
 	@FindBy(xpath = "//span[contains(text(),'About')]")
 	WebElement aboutLink;
 
-	@FindBy(xpath = "//span[contains(text(),'Friends')]")
+	@FindBy(xpath = "//div[@class = 'bp9cbjyn rq0escxv j83agx80 pfnyh3mw frgo5egb l9j0dhe7 cb02d2ww hv4rvrfc dati1w0a']//span[contains(text(),'Friends')]")
 	WebElement friendsLink;
 
-	@FindBy(xpath = "//span[contains(text(),'Photos')]")
+	@FindBy(xpath = "//div[@class = 'bp9cbjyn rq0escxv j83agx80 pfnyh3mw frgo5egb l9j0dhe7 cb02d2ww hv4rvrfc dati1w0a']//span[contains(text(),'Photos')]")
 	WebElement photosLink;
 
 	@FindBy(xpath = "//span[contains(text(),'Videos')]")

@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.bridgelabz.AboutPageTest">
+      <class name="com.bridgelabz.ProfilePageTest">
         <methods>
-          <include name="setUp"/>
-          <include name="ClickOnOverviewLinkTest"/>
+          <include name="ClickOnAboutLinkTest"/>
           <include name="tearDown"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.bridgelabz.AboutPageTest -->
+      </class> <!-- com.bridgelabz.ProfilePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
